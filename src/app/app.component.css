@@ -1,0 +1,70 @@
+
+.float{
+	display: none;
+}
+
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .parent button {
+    background-color: #fcb433;
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: 31px;
+    height: 100px;
+    width: 100px;
+    box-shadow: 0 2px 4px darkslategray;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position:fixed;
+    bottom:20px;
+	right:20px;
+  }
+  
+  .parent button:active {
+    background-color: #48abe0;
+    box-shadow: 0 0 2px darkslategray;
+    transform: translateY(2px);
+  }
+  
+  .parent button:not(:first-child) {
+    margin-top: 10px;
+  }
+  .round-6 img{
+    width: 50px;
+  }
+  .round-6 p{
+    font-size: 20px;
+    margin: 0px;
+  }
+
+  
+@media only screen and (max-width: 600px) {
+    .float{
+        display: block;
+        position:fixed;
+        width:60px;
+        height:60px;
+        bottom:20px;
+        right:20px;
+        background-color:#fcb433;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+      font-size:30px;
+        box-shadow: 2px 2px 3px #999;
+      z-index:100;
+    }
+    
+    .my-float{
+        margin-top:16px;
+    }
+    .parent{
+        display: none;
+    }
+}

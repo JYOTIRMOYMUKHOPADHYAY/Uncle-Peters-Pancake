@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    font-family: Arial,Helvetica,sans-serif;
+    /* font-size: 10px; */
+}
+.heading_text {
+    /* font:normal normal bold 90px/1.4em poppins-semibold,poppins,sans-serif; */
+    font-size: 30px;
+  font-weight: bold;
+  /* line-height: normal; */
+}
+.body_text_bold{
+    font-size: 16px;
+  font-weight: bold;
+}
+@media only screen and (max-width: 800px) {
+    .heading_text{
+        font-size: 23px;
+        font-weight: bold;
+        /* font: normal normal bold 29.4px/1.4em poppins-semibold,poppins,sans-serif; */
+    }
+    .body_text_bold{
+        font-size: 15px;
+      font-weight: bold;
+    }
+  }
