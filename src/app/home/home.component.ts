@@ -12,11 +12,11 @@ import am5geodata_worldLow from "@amcharts/amcharts5-geodata/worldLow";
 })
 export class HomeComponent {
   faCoffee = faCoffee;
-  root = am5.Root.new("chartdiv"); 
-  chart = this.root.container.children.push(
-  am5map.MapChart.new(this.root, {
-    panX: "rotateX",
-    projection: am5map.geoNaturalEarth1()
-  })
-);
+//   root = am5.Root.new("chartdiv"); 
+//   chart = this.root.container.children.push(
+//   am5map.MapChart.new(this.root, {
+//     panX: "rotateX",
+//     projection: am5map.geoNaturalEarth1()
+//   })
+// );
 }
